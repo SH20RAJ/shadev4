@@ -12,6 +12,7 @@
     "deploy": "npm run pages:build && wrangler pages deploy"
   },
   "dependencies": {
+    "@cloudflare/next-on-pages": "^1.11.3",
     "@ducanh2912/next-pwa": "^10.2.6",
     "@heroicons/react": "^1.0.6",
     "@prisma/client": "^5.12.1",

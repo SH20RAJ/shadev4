@@ -1,13 +1,19 @@
-import { MainPage } from "@/components/main-page";
-
-export const runtime = "edge";
-
-
-
+import Articles from "./compo/Articles";
+import RightBar from "./compo/RightBar";
+import ProjectSec from "./compo/ProjectSec";
 export default function Home() {
   return (
     <>
-    <MainPage/>
+
+      <ProjectSec/>
+      
+      <RightBar>
+        <Articles/>
+      </RightBar>
+
+    
     </>
   );
 }
+
+// export const revalidate = 10;
